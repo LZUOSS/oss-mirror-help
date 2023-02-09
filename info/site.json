@@ -1,0 +1,10 @@
+{
+    "site": {
+        "hostname": "mirror.lzu.edu.cn",
+        "url": "https://mirror.lzu.edu.cn",
+        "org": {
+            "nameUpper": "LZUOSS",
+            "nameLower": "lzuoss"
+        }
+    }
+}
