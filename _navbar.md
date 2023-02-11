@@ -1,2 +1,2 @@
-* [HOME](https://mirror.lzu.edu.cn)
-* [LZUOSS](https://oss.lzu.edu.cn)
+* [镜像站](https://mirror.lzu.edu.cn)
+* [LZUOSS 主页](https://oss.lzu.edu.cn)

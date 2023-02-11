@@ -1,6 +1,6 @@
 * Intro
 
-  * [About Us](/)
+  * [About Us](/_home)
 
 * Mirror List
 
