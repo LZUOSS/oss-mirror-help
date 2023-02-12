@@ -53,6 +53,13 @@
             loadNavbar: true,
             coverpage: true,
             onlycover: true,
+            tabs: {
+                persist: true,
+                sync: true,
+                theme: 'material',
+                tabComments: true,
+                tabHeadings: true
+            },
             mustache: {
                 noPackage: true,
                 data: ['info/site.json']
@@ -71,6 +78,8 @@
     <script src="//cdn.jsdelivr.net/npm/docsify-mustache/dist/docsify-mustache.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/front-matter.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/docsify-tabs@1/dist/docsify-tabs.min.js.map"></script>
 </body>
 
 </html>

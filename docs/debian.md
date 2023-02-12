@@ -21,7 +21,9 @@ $ sudo apt install apt-transport-https ca-certificates
 
 ### 配置文件清单
 
-#### sid
+<!-- tabs:start -->
+
+#### **sid**
 
 ```shell
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
@@ -29,79 +31,81 @@ deb https://{{ site.hostname }}/debian/ sid main contrib non-free
 # deb-src https://{{ site.hostname }}/debian/ sid main contrib non-free
 ```
 
-#### testing
+#### **testing**
 
 ```shell
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
 deb https://{{ site.hostname }}/debian/ testing main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ testing main contrib non-free
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ testing-updates main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ testing-updates main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ testing main contrib non-free
+deb https://{{ site.hostname }}/debian/ testing-updates main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ testing-updates main contrib non-free
 
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ testing-backports main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ testing-backports main contrib non-free
+deb https://{{ site.hostname }}/debian/ testing-backports main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ testing-backports main contrib non-free
 
-deb https://mirrors.tuna.tsinghua.edu.cn/debian-security testing-security main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security testing-security main contrib non-free
+deb https://{{ site.hostname }}/debian-security testing-security main contrib non-free
+# deb-src https://{{ site.hostname }}/debian-security testing-security main contrib non-free
 ```
 
-#### bullseye
+#### **bullseye**
 
 ```shell
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye main contrib non-free
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-updates main contrib non-free
+deb https://{{ site.hostname }}/debian/ bullseye main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ bullseye main contrib non-free
+deb https://{{ site.hostname }}/debian/ bullseye-updates main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ bullseye-updates main contrib non-free
 
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ bullseye-backports main contrib non-free
+deb https://{{ site.hostname }}/debian/ bullseye-backports main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ bullseye-backports main contrib non-free
 
-deb https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security bullseye-security main contrib non-free
+deb https://{{ site.hostname }}/debian-security bullseye-security main contrib non-free
+# deb-src https://{{ site.hostname }}/debian-security bullseye-security main contrib non-free
 ```
 
-#### buster
+#### **buster**
 
 ```shell
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster main contrib non-free
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-updates main contrib non-free
+deb https://{{ site.hostname }}/debian/ buster main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ buster main contrib non-free
+deb https://{{ site.hostname }}/debian/ buster-updates main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ buster-updates main contrib non-free
 
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ buster-backports main contrib non-free
+deb https://{{ site.hostname }}/debian/ buster-backports main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ buster-backports main contrib non-free
 
-deb https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security buster/updates main contrib non-free
+deb https://{{ site.hostname }}/debian-security buster/updates main contrib non-free
+# deb-src https://{{ site.hostname }}/debian-security buster/updates main contrib non-free
 ```
 
-#### stretch
+#### **stretch**
 
 ```shell
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch main contrib non-free
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-updates main contrib non-free
+deb https://{{ site.hostname }}/debian/ stretch main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ stretch main contrib non-free
+deb https://{{ site.hostname }}/debian/ stretch-updates main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ stretch-updates main contrib non-free
 
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ stretch-backports main contrib non-free
+deb https://{{ site.hostname }}/debian/ stretch-backports main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ stretch-backports main contrib non-free
 
-deb https://mirrors.tuna.tsinghua.edu.cn/debian-security stretch/updates main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security stretch/updates main contrib non-free
+deb https://{{ site.hostname }}/debian-security stretch/updates main contrib non-free
+# deb-src https://{{ site.hostname }}/debian-security stretch/updates main contrib non-free
 ```
 
-#### jessie
+#### **jessie**
 
 ```shell
 # 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ jessie main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ jessie main contrib non-free
-deb https://mirrors.tuna.tsinghua.edu.cn/debian/ jessie-updates main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian/ jessie-updates main contrib non-free
+deb https://{{ site.hostname }}/debian/ jessie main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ jessie main contrib non-free
+deb https://{{ site.hostname }}/debian/ jessie-updates main contrib non-free
+# deb-src https://{{ site.hostname }}/debian/ jessie-updates main contrib non-free
 
-deb https://mirrors.tuna.tsinghua.edu.cn/debian-security jessie/updates main contrib non-free
-# deb-src https://mirrors.tuna.tsinghua.edu.cn/debian-security jessie/updates main contrib non-free
+deb https://{{ site.hostname }}/debian-security jessie/updates main contrib non-free
+# deb-src https://{{ site.hostname }}/debian-security jessie/updates main contrib non-free
 ```
+
+<!-- tabs:end -->

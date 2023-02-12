@@ -38,3 +38,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Fixed when loading `#/index.html`, it will alaways be in loading. Use `alias` to fix
+
+## [1.1.1] - 2023-02-12
+
+### Added
+
+- Add docsify tabs
+
+### Fixed
+
+- Fix debian help page render mistake
