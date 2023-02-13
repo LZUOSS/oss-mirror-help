@@ -4,35 +4,47 @@ layout: help
 mirrorid: elrepo
 ---
 
-## ELRepo 镜像使用帮助
+# ELRepo 镜像使用帮助
 
-首先按照[官网的安装说明](https://elrepo.org/tiki/tiki-index.php)，配置 ELRepo：
+> ELRepo is an RPM repository for Enterprise Linux packages. 
 
-```bash
-> rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
-```
+## 配置 ELRepo
 
-接着，按照你的系统版本，如果是 RHEL-8 或者 CentOS-8 则运行：
+首先按照[官网的安装说明](https://elrepo.org/tiki/tiki-index.php)进行配置：
 
 ```bash
-> yum install https://www.elrepo.org/elrepo-release-8.el8.elrepo.noarch.rpm
+rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org
 ```
 
-RHEL-7, SL-7 或者 CentOS-7：
+接着，按照你的系统版本，执行下列命令: 
+
+<!-- tabs:start -->
+
+### **RHEL-8 / CentOS-8**
 
 ```bash
-> yum install https://www.elrepo.org/elrepo-release-7.el7.elrepo.noarch.rpm
+yum install https://www.elrepo.org/elrepo-release-8.el8.elrepo.noarch.rpm
 ```
 
-RHEL-6, SL-6 或者 CentOS-6：
+### **RHEL-7 / SL-7 / CentOS-7**
 
 ```bash
-> yum install https://www.elrepo.org/elrepo-release-6.el6.elrepo.noarch.rpm
+yum install https://www.elrepo.org/elrepo-release-7.el7.elrepo.noarch.rpm
 ```
+
+### **RHEL-6 / SL-6 / CentOS-6**
+
+```bash
+yum install https://www.elrepo.org/elrepo-release-6.el6.elrepo.noarch.rpm
+```
+
+<!-- tabs:end -->
+
+## 更换镜像源
 
 建议先备份 `/etc/yum.repos.d/elrepo.repo` ：
 
-```
+```bash
 sudo cp /etc/yum.repos.d/elrepo.repo /etc/yum.repos.d/elrepo.repo.bak
 ```
 
@@ -40,6 +52,6 @@ sudo cp /etc/yum.repos.d/elrepo.repo /etc/yum.repos.d/elrepo.repo.bak
 
 最后，更新软件包缓存
 
-```
+```bash
 sudo yum makecache
 ```

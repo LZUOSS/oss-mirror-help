@@ -4,12 +4,15 @@ layout: help
 mirrorid: CPAN
 ---
 
-CPAN 镜像使用帮助
-===================
+# CPAN 镜像使用帮助
+
+> CPAN is the Comprehensive Perl Archive Network, a large collection of Perl software and documentation.
 
 [CPAN](https://www.cpan.org/) (The Comprehensive Perl Archive Network) 镜像源的配置文件为 `MyConfig.pm`（一般位于 `~/.cpan/CPAN/MyConfig.pm`），可使用包管理脚本 `cpan` 进行修改。
 
-### 初次使用
+<!-- tabs:start -->
+
+## **初次使用**
 
 如果 `MyConfig.pm` 配置文件不存在，在命令行中执行：
 
@@ -24,9 +27,11 @@ PERL_MM_USE_DEFAULT=1 perl -MCPAN -e 'CPAN::HandleConfig->edit("urllist", "unshi
 perl -MCPAN -e 'mkmyconfig'
 ```
 
-### 已有配置
+## **已有配置**
 
-#### 在 CPAN Shell 中手动设置镜像
+<!-- tabs:start -->
+
+### **CPAN Shell手动设置**
 
 在命令行中执行 `cpan` 进入 cpan shell：
 
@@ -58,7 +63,7 @@ cpan[6]> o conf commit
 cpan[7]> quit
 ```
 
-#### 在命令行中使用脚本设置
+### **命令行脚本配置**
 
 在命令行中执行：
 
@@ -79,3 +84,7 @@ perl -MCPAN -e 'CPAN::HandleConfig->load();' \
     -e 'CPAN::HandleConfig->edit("pushy_https", 0);' \
     -e 'CPAN::HandleConfig->commit()'
 ```
+
+<!-- tabs:end -->
+
+<!-- tabs:end -->

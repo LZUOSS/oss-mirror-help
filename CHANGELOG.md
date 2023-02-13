@@ -48,3 +48,21 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 
 - Fix debian help page render mistake
+
+## [1.2.0] - 2023-02-13
+
+### Added
+
+- Add meta info keyword and author
+- Add pagination
+- Add footer
+- Add hightlight (note/tip/warning/attention/bash/shell)
+- Add custom page title
+
+### Changed
+
+- Prettier mirror help pages 
+
+### Deprecated
+
+- deprecate local docsify js/css 

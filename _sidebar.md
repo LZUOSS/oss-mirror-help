@@ -11,7 +11,7 @@
   * [Anaconda](/docs/anaconda.md)
   * [Anthon](/docs/anthon.md)
   * [Archlinux](/docs/archlinux.md)
-  * [Archlinuxcn](/docs/archlinuxcn.md)
+  * [ArchlinuxCN](/docs/archlinuxcn.md)
   * [Centos-altarch](/docs/centos-altarch.md)
   * [Centos](/docs/centos.md)
   * [Debian](/docs/debian.md)

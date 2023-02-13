@@ -4,17 +4,18 @@ category: help
 mirrorid: epel
 ---
 
-## EPEL 镜像使用帮助
+# EPEL 镜像使用帮助
 
-EPEL(Extra Packages for Enterprise Linux)是由Fedora Special Interest Group维护的Enterprise Linux（RHEL、CentOS）中经
-常用到的包。
+> Extra Packages for Enterprise Linux (or EPEL) is a Fedora Special Interest Group that creates, maintains, and manages a high quality set of additional packages for Enterprise Linux.
 
+EPEL(Extra Packages for Enterprise Linux) 是由 Fedora Special Interest Group 维护的 Enterprise Linux（RHEL、CentOS）中经常用到的包。
 
-下面以CentOS 7为例讲解如何使用本镜像站的epel镜像。CentOS 8同样可用该方法。
+下面以 CentOS 7 为例讲解如何使用本镜像站的 epel 镜像。CentOS 8同样可用该方法。
 
-首先从CentOS Extras这个源（[本镜像站](https://{{ site.hostname }}/help/centos)也有镜像）里安装epel-release：
+<!-- May edit json file to auto change the help page link -->
+首先从 CentOS Extras 这个源（[本镜像站](https://{{ site.hostname }}/help/#/centos)也有镜像）里安装 epel-release：
 
-```
+```bash
 yum install epel-release
 ```
 
@@ -25,7 +26,7 @@ yum install epel-release
 
 可以用如下命令自动替换：
 
-```
+```bash
 sed -e 's!^metalink=!#metalink=!g' \
     -e 's!^#baseurl=!baseurl=!g' \
     -e 's!//download\.fedoraproject\.org/pub!//{{ site.hostname }}!g' \
@@ -34,7 +35,9 @@ sed -e 's!^metalink=!#metalink=!g' \
     -i /etc/yum.repos.d/epel*.repo
 ```
 
-修改结果如下：（仅供参考，不同版本可能不同）
+修改结果如下：
+
+> [!tip] 仅供参考，不同版本可能不同）
 
 ```
 [epel]
