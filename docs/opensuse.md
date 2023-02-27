@@ -41,6 +41,12 @@ sudo zypper ar -cfg 'https://{{ site.hostname }}/opensuse/update/leap/$releaseve
 sudo zypper ar -cfg 'https://{{ site.hostname }}/opensuse/update/leap/$releasever/backports/' {{ site.org.nameLower }}-backports-update
 ```
 
+添加完成后刷新软件源
+
+```bash
+sudo zypper ref
+```
+
 > [!tip] 对于 Leap 15.3，若在安装时**没有**启用在线软件源， sle 源和 backports 源将在系统首次更新后引入，请确保系统在更新后仅启用了**六个**所需软件源。可使用 `zypper lr` 检查软件源状态，并使用 `zypper mr -d` 禁用多余的软件源。
 
 ## **openSUSE Tumbleweed**

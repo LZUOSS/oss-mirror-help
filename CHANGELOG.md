@@ -72,3 +72,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Use local res instead of cdn
+
+## opensuse - 2023-02-27
+
+- openSUSE Leap 15.2 or newer help page add command `sudo zypper ref`, thanks to suggestion from [LeBronWen](https://github.com/LeBronWen)
