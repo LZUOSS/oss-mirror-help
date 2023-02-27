@@ -66,3 +66,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Deprecated
 
 - deprecate local docsify js/css 
+
+## [1.2.1] - 2023-02-27
+
+### Changed
+
+- Use local res instead of cdn
