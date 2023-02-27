@@ -12,10 +12,6 @@
 /_/  /_//_/  |_|/_/ |_|/_____/   \____//____//____/   \____//_/ |_|/_____//_/  |_|/_/    /_/  |_|\____//_/  |_|/___//_/ |_/(_)                                  
 ```
 
-## 如何编辑
-
-选择对应文档的分支修改 `docs` 目录下的文档信息，然后提交 PR 即可。
-
 ## TODO
 
 - [ ] almalinux / blackarch / debian-cd / debian-ports / debian-security / deepin / deepin-releases / flutter / freebsd / gentoo / gentoo-portage / gnu / kernel / lfs / manjaro / openeuler/ openkylin / openkylin-cdimage / ubuntu-releases / ubuntukylin / ubuntukylin-cdimage mirrors help
