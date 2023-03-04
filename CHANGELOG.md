@@ -76,3 +76,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## opensuse - 2023-02-27
 
 - openSUSE Leap 15.2 or newer help page add command `sudo zypper ref`, thanks to suggestion from [LeBronWen](https://github.com/LeBronWen)
+
+## 2023-03-04
+
+### Changed
+
+- Add Special Thanks

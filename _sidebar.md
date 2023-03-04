@@ -22,3 +22,8 @@
   * [Openwrt](/docs/openwrt.md)
   * [PyPi](/docs/pypi.md)
   * [Ubuntu](/docs/ubuntu.md)
+
+* 特别鸣谢
+
+  * [MirrorZ 镜像站项目](https://mirrorz.org/)
+  * [清华大学 TUNA 协会](https://tuna.moe/)
