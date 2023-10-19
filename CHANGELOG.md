@@ -82,3 +82,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Add Special Thanks
+
+## 2023-10-19
+
+### Changed
+
+- Change lzuoss [website](http://mirror.lzu.edu.cn/lzuoss)
