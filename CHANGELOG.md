@@ -97,3 +97,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Change debian mirror help to mirrorz
 - Add vue.global.prod.js
 - Standardize part of the release name
+- Set cache-control to 600s

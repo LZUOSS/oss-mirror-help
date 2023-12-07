@@ -96,7 +96,13 @@
                 suffix: 'Mirror Help',
                 seprator: '|',
                 debug: false
-            }
+            },
+            // 设置缓存时间，防止部署服务器访问时无法刷新新的文档
+            // 缓存生效时间为 10 分钟
+            // https://docsify.js.org/#/configuration?id=requestheaders
+            requestHeaders: {
+                'cache-control': 'max-age=600',
+            },
         }
     </script>
     <!-- Docsify v4 -->

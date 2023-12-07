@@ -17,3 +17,5 @@
 [兰州大学开源社区镜像站](https://mirror.lzu.edu.cn)由兰州大学开源社区提供支持，收录了 Fedora、Debian、CentOS、Arch Linux、Ubuntu 等多个主要发行版的软件源镜像。我们希望通过开源软件镜像宣传自由软件的价值，提高自由软件社区文化氛围，推广自由软件在高校以至国内的应用。
 
 如有异常、疑问或建议，或者需要我们新增镜像，请[提交一个 Issue ](https://github.com/LZUOSS/Mirror/issues/new)来告诉我们。
+
+> [!tip] 文档仍在不断完善中，由于缓存策略，没找到想要的说明时可以刷新浏览器缓存看看。
