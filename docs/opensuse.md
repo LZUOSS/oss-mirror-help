@@ -6,7 +6,7 @@ mirrorid: opensuse
 
 # openSUSE 镜像使用帮助
 
-openSUSE 项目是一个由 Novell 赞助的社区项目。该项目旨在推进 Linux 的广泛应用，提供自由、易于入手和美观实用的 openSUSE Linux 发行版。openSUSE 使用 `zypper` 作为包管理器。
+> openSUSE 项目是一个由 Novell 赞助的社区项目。该项目旨在推进 Linux 的广泛应用，提供自由、易于入手和美观实用的 openSUSE Linux 发行版。openSUSE 使用 `zypper` 作为包管理器。
 
 * 项目地址：<https://www.opensuse.org>
 * 镜像地址：<https://{{ site.hostname }}/opensuse>

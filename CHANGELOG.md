@@ -88,3 +88,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Change lzuoss [website](http://mirror.lzu.edu.cn/lzuoss)
+
+## 2023-12-7
+
+### Changed
+
+- Add AlmaLinux / BlackArch / Debian CD / Debian Security / Flutter / FreeBSD / Gentoo / Gentoo Portage / GNU / Manjaro / Rocky mirror help
+- Change debian mirror help to mirrorz
+- Add vue.global.prod.js
+- Standardize part of the release name

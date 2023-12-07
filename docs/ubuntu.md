@@ -6,7 +6,7 @@ mirrorid: ubuntu
 
 # Ubuntu 镜像使用帮助
 
-[Ubuntu](https://ubuntu.com/) 是一个基于 Debian 的 Linux 发行版，它以桌面用户为主要目标，但也可以用于服务器和嵌入式系统。
+> [Ubuntu](https://ubuntu.com/) 是一个基于 Debian 的 Linux 发行版，它以桌面用户为主要目标，但也可以用于服务器和嵌入式系统。
 
 > [!warning] 本镜像仅仅包含 i386 和 amd64 架构的软件包。
 
