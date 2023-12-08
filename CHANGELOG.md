@@ -98,3 +98,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Add vue.global.prod.js
 - Standardize part of the release name
 - Set cache-control to 600s
+
+## 2023-12-8
+
+### Changed
+
+- Add debian-ports / deepin-releases / deepin / kernel.org / lfs / openkylin-cdimage / ubuntu-releases / ubuntukylin-cdimage / ubuntukylin mirror help

@@ -14,4 +14,4 @@
 
 ## TODO
 
-- [ ] debian-ports/ deepin / deepin-releases / kernel / lfs / openeuler/ openkylin / openkylin-cdimage / ubuntu-releases / ubuntukylin / ubuntukylin-cdimage / wepe / radxa-apt mirrors help
+- [ ] wepe / radxa-apt mirrors help
